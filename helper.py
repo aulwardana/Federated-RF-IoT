@@ -6,7 +6,7 @@ from typing import List
 
 
 def load_dataset(client_id: int):
-    df = pd.read_csv('NF-ToN-IoT-V2.csv')
+    df = pd.read_csv('30%_CIC-IoT-2023.csv')
 
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
